@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Page title</title>
+	<link rel="stylesheet"type="text/css" href="animationW.css" >
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+	<div id="dialog" title="Basic information">
+		<p>This is a basic animation program with circle and rectangle.
+			Click ok to play!
+		</p>
+	</div>
+	X: <input type="number" id="x" title="set the x position">
+    Y: <input type="number" id="y" title="set the y position">
+	Color: <input type="color" id="c">
+	
+	<select name="options" id="opt">
+		<option value="rectangle">Rectangle</option>
+		<option value="circle" selected>Circle<option>
+	</select>
+
+		<input type="checkbox" id="radio-1" name="radio-1"> 
+		<label for="radio-1">Animation: </label>
+	<div id="cerc"> Raza:<input type="number" id="raza" title="set raza for circle"> </div>
+	<div id="drept">
+		<label>Width:</label> <input type="number" id="width" title="set width for rectangle">
+		<label>Height:</label> <input type="number" id="height" title="set height for rectangle">
+	</div>
+	<span id="aria"></span>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>	
+    <script type = "text/javascript" 
+        src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="animationW.js"></script>
+</body>
+</html>

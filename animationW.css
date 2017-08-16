@@ -1,0 +1,15 @@
+#c{
+	color: black;
+}
+div {
+	background-color: white;
+}
+#cerc {
+	display: block;
+}
+#drept {
+	display: none;
+}
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
